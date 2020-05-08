@@ -4,9 +4,9 @@ var timeInterval = setInterval(function () {
 
 
 function renderTimeBlocks() {
-        var numberOfHours = 24;
-        var startHour = 1;
-    for (var i = startHour; i < numberOfHours + 1; i++) {
+        var numberOfHours = 12;
+        var startHour = 7;
+    for (var i = startHour; i < numberOfHours + startHour; i++) {
         var hour = i;
         var meridiem = "am";
         if(hour > 12) {
